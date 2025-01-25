@@ -1,1 +1,147 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandesh Joshi - Nepali Style Pickle & Jam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        :root {
+            --primary: #d9534f;
+            --secondary: #6c757d;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family-sans-serif);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+            text-align: center;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: var(--light);
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: var(--light);
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border: 5px solid var(--primary);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .btn {
+            background-color: var(--primary);
+            color: var(--light);
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background-color: var(--dark);
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: var(--dark);
+            color: var(--light);
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 16px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        footer a {
+            color: var(--light);
+            text-decoration: none;
+        }
+
+        .qr-img {
+            width: 80%;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header h2 {
+                font-size: 1.2rem;
+            }
+
+            .btn {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sandesh Joshi</h1>
+        <h2>Nepali Style Pickle & Jam</h2>
+    </header>
+
+    <div class="container">
+        <img src="logo.png" alt="Sandesh Joshi" class="profile-img">
+        <p>Celebrating Nepalese culinary tradition with locally sourced New Zealand produce.</p>
+
+        <div class="btn-grid">
+            <a href="tel:+64204936459" class="btn"><i class="fas fa-phone"></i> Call Me</a>
+            <a href="sms:+64204936459" class="btn"><i class="fas fa-sms"></i> SMS Me</a>
+            <a href="https://wa.me/64204936459" class="btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="mailto:sandeshjoshi358@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>📞 Phone: +64 204936459 | 📧 Email: sandeshjoshi358@gmail.com</p>
+        <p>Copyright © Nepali Style Pickle & Jam by Sandesh Joshi</p>
+    </footer>
+</body>
+</html>
